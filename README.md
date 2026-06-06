@@ -21,7 +21,7 @@ If the WHIP muxer isn't available in the local FFmpeg build (common with distro 
 
 ## Requirements
 
-- [Gazebo Sim](https://gazebosim.org/) (Ionic or newer)
+- [Gazebo Sim](https://gazebosim.org/) 11.0.0+ (tested with gz-sim 11.0.0~pre1)
 - FFmpeg development libraries (`libavcodec`, `libavformat`, `libswscale`, `libavutil`) with libx264
 - cmake, pkg-config, C++17 compiler
 
